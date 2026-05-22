@@ -5,8 +5,9 @@ public class Main {
     {
         System.out.println("Welcome to the Sorting problems");
         System.out.println("Welcome to the Sorting problems");
-        int[] arr={3,2,9,5,4};
+        float[] arr={3,2,9,5,4};
         //here can call method which we sort
+        BucketSort.bucketSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
