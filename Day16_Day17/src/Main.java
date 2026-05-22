@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Welcome to the Sorting problems");
         int[] arr={3,2,9,5,4};
         //here can call method which we sort
+
+        MergeSort.mergeSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
