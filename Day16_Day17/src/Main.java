@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Welcome to the Sorting problems");
 
         int[] arr={3,2,9,5,4};
+        float[] arr1={3,2,9,5,4};
         //here can call method which we sort
         BubbleSort.bubbleSort(arr);
         InsertionSort.insertionSort(arr);
@@ -15,6 +16,7 @@ public class Main {
         HeapSort.heapSort(arr);
         CountingSort.countingSort(arr);
         RedixSort.radixSort(arr);
+        BucketSort.bucketSort(arr1);
         System.out.println(Arrays.toString(arr));
     }
 }
