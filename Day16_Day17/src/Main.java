@@ -8,6 +8,7 @@ public class Main {
         int[] arr={3,2,9,5,4};
         //here can call method which we sort
         BubbleSort.bubbleSort(arr);
+        InsertionSort.insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
