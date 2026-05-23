@@ -9,6 +9,7 @@ public class Main {
         //here can call method which we sort
         BubbleSort.bubbleSort(arr);
         InsertionSort.insertionSort(arr);
+        MergeSort.mergeSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
