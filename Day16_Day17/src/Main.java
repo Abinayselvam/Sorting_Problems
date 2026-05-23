@@ -14,6 +14,7 @@ public class Main {
         SelectionSort.selectionSort(arr);
         HeapSort.heapSort(arr);
         CountingSort.countingSort(arr);
+        RedixSort.radixSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
