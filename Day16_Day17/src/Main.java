@@ -10,6 +10,7 @@ public class Main {
         BubbleSort.bubbleSort(arr);
         InsertionSort.insertionSort(arr);
         MergeSort.mergeSort(arr,0,arr.length-1);
+        QuickSort.quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 }
